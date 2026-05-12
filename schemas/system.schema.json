@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "System",
+  "type": "object",
+  "required": ["system_id", "name", "category", "owner"],
+  "properties": {
+    "system_id": {"type": "string"},
+    "name": {"type": "string"},
+    "category": {"type": "string"},
+    "owner": {"type": "string"},
+    "touches_phi": {"type": "boolean"},
+    "criticality": {"enum": ["high", "medium", "low"]}
+  }
+}

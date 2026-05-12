@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvidenceReference",
+  "type": "object",
+  "required": ["evidence_id", "title", "evidence_type", "owner", "collected_at"],
+  "properties": {
+    "evidence_id": {"type": "string"},
+    "title": {"type": "string"},
+    "evidence_type": {"type": "string"},
+    "owner": {"type": "string"},
+    "collected_at": {"type": "string", "format": "date"},
+    "control_ids": {"type": "array", "items": {"type": "string"}},
+    "systems": {"type": "array", "items": {"type": "string"}},
+    "vendors": {"type": "array", "items": {"type": "string"}},
+    "risks_mitigated": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"},
+    "expiry_days": {"type": "integer", "minimum": 1}
+  }
+}

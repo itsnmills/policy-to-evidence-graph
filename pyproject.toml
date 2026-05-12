@@ -1,0 +1,17 @@
+[project]
+name = "policy-to-evidence-graph"
+version = "0.1.0"
+description = "Local-first policy-to-evidence graph for small healthcare practices"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "PyYAML>=6.0",
+  "cryptography>=42.0.0"
+]
+
+[project.scripts]
+evidence-graph = "evidence_graph.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

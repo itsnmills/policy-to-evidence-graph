@@ -1,0 +1,9 @@
+{
+  "name": "NIST CSF Practical",
+  "version": 1.0,
+  "framework": "practical",
+  "controls": [
+    {"id": "CSF-Identify-1", "title": "Asset Management", "description": "Maintain system and data flow inventory.", "frameworks": ["NIST-CSF"], "criticality": "medium", "stale_days": 90, "required_evidence_types": ["system_inventory"]},
+    {"id": "CSF-Protect-4", "title": "Protective Technology", "description": "Patch and harden critical systems.", "frameworks": ["NIST-CSF"], "criticality": "high", "stale_days": 60, "required_evidence_types": ["vulnerability_report", "patch_ticket"]}
+  ]
+}

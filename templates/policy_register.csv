@@ -1,0 +1,6 @@
+policy_id,title,owner,status,updated_at,description,control_ids
+POL-01,Data Inventory and ePHI Map,Compliance Lead,active,2026-05-01,Current flow map for systems touching PHI,CPR-001
+POL-02,Vendor BAA Review,Privacy Lead,active,2026-04-20,BAA and risk review process,CPR-002
+POL-03,Backup and Incident Response,Operations Lead,active,2026-04-25,Backup restore cadence and incident drill documentation,CPR-003
+POL-04,Access and Role Management,IT Lead,active,2026-03-10,Quarterly role and privilege checks,CPR-004
+POL-05,AI Safety Workflow,AI Program Lead,draft,2026-02-15,AI feature intake and approvals,CPR-005

@@ -1,0 +1,4 @@
+risk_id,title,description,severity,status,owner,updated_at,control_ids
+R-001,AI transcription path leaks risk,Free-form AI output is copied into chat history without filter,high,in_progress,AI Program Lead,2026-04-28,"CPR-005"
+R-002,Stale BAA renewal missed,Vendors with expired review windows,critical,open,Privacy Lead,2026-03-04,"CPR-002"
+R-003,Restore evidence missing for secondary site,No documented test since last quarter,high,open,IT Lead,2026-02-10,"CPR-003"

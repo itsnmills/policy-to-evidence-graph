@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Control",
+  "type": "object",
+  "required": ["id", "title", "frameworks", "criticality"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "description": {"type": "string"},
+    "frameworks": {"type": "array", "items": {"type": "string"}},
+    "required_evidence_types": {"type": "array", "items": {"type": "string"}},
+    "criticality": {"enum": ["critical", "high", "medium", "low"]},
+    "stale_days": {"type": "integer", "minimum": 1}
+  }
+}

@@ -1,0 +1,6 @@
+evidence_id,title,evidence_type,owner,collected_at,control_ids,systems,vendors,risks_mitigated,notes,expiry_days
+EV-001,ePHI system inventory export,system_inventory,Compliance Lead,2026-05-01,CPR-001,EHR-01,SaaS-TEL, ,Current list of systems and interfaces,365
+EV-002,Vendor BAA repository snapshot,vendor_baa,Privacy Lead,2026-04-20,V-101, ,V-101, ,BAAs verified from top 5 vendors,365
+EV-003,Restore drill evidence pack,backup_restore_test,IT Lead,2026-04-14,CPR-003, , , ,Quarterly full restore drill evidence,120
+EV-004,Annual access review report,access_review,IT Lead,2026-04-10,CPR-004, , , ,Active accounts verified and exceptions remediated,180
+EV-005,AI workflow approval matrix,ai_workflow_review,AI Program Lead,2026-05-02,CPR-005, , , ,Allowed/prohibited use cases updated,365

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProjectConfig",
+  "type": "object",
+  "required": ["project", "paths"],
+  "properties": {
+    "project": {
+      "type": "object",
+      "required": ["name", "owner"],
+      "properties": {
+        "name": {"type": "string"},
+        "owner": {"type": "string"}
+      }
+    },
+    "paths": {
+      "type": "object",
+      "properties": {
+        "control_library": {"type": "string"},
+        "policy_register": {"type": "string"},
+        "policy_procedure_map": {"type": "string"},
+        "evidence_log": {"type": "string"},
+        "system_inventory": {"type": "string"},
+        "vendor_register": {"type": "string"},
+        "risk_register": {"type": "string"}
+      },
+      "required": ["control_library", "policy_register", "evidence_log", "system_inventory", "vendor_register", "risk_register"]
+    },
+    "stale_by_criticality": {
+      "type": "object",
+      "properties": {
+        "critical": {"type": "integer"},
+        "high": {"type": "integer"},
+        "medium": {"type": "integer"},
+        "low": {"type": "integer"}
+      }
+    }
+  }
+}

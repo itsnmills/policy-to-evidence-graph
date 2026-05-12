@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["risk_id", "title", "severity", "status", "owner", "updated_at"],
+  "properties": {
+    "risk_id": {"type": "string"},
+    "title": {"type": "string"},
+    "description": {"type": "string"},
+    "severity": {"enum": ["critical", "high", "medium", "low"]},
+    "status": {"enum": ["open", "in_progress", "closed"]},
+    "owner": {"type": "string"},
+    "updated_at": {"type": "string", "format": "date"},
+    "control_ids": {"type": "array", "items": {"type": "string"}}
+  }
+}

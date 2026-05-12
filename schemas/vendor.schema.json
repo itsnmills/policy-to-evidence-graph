@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vendor",
+  "type": "object",
+  "required": ["vendor_id", "name", "status", "touches_phi", "review_date"],
+  "properties": {
+    "vendor_id": {"type": "string"},
+    "name": {"type": "string"},
+    "status": {"type": "string"},
+    "touches_phi": {"type": "boolean"},
+    "touches_ai": {"type": "boolean"},
+    "review_date": {"type": "string", "format": "date"},
+    "baa_status": {"type": "string"},
+    "controls": {"type": "array", "items": {"type": "string"}}
+  }
+}

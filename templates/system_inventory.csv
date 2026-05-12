@@ -1,0 +1,5 @@
+system_id,name,category,owner,touches_phi,criticality,controls
+SYS-01,EHR Production,core,IT Lead,true,high,CPR-001
+SYS-02,Patient Portal,platform,Admin,true,high,CPR-001
+SYS-03,Email Gateway,productivity,Office Lead,false,low,CPR-004
+SYS-04,Cloud Backup,infra,IT Lead,true,critical,CPR-003

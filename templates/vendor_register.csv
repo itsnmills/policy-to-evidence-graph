@@ -1,0 +1,4 @@
+vendor_id,name,status,touches_phi,touches_ai,review_date,baa_status,controls
+V-101,CloudCare Billing,active,true,false,2026-04-22,signed,CPR-002
+V-102,Transcription AI,active,false,true,2026-02-10,conditional-review,CPR-005
+V-103,CloudStorage Pro,active,true,false,2026-01-01,not-required,CPR-001

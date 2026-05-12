@@ -1,0 +1,10 @@
+{
+  "name": "Small Practice Security Baseline",
+  "version": 1.0,
+  "framework": "practical",
+  "controls": [
+    {"id": "CPR-001", "title": "Inventory ePHI systems and data flow boundaries", "description": "Maintain an inventory of systems handling ePHI and document flow boundaries.", "frameworks": ["HIPAA", "NIST-CSF"], "criticality": "high", "stale_days": 90, "required_evidence_types": ["system_inventory", "policy_document"]},
+    {"id": "CPR-002", "title": "Vendor BAA and subcontractor review", "description": "Confirm vendor BAAs and review dates.", "frameworks": ["HIPAA"], "criticality": "high", "stale_days": 365, "required_evidence_types": ["vendor_baa", "vendor_risk_review"]},
+    {"id": "CPR-003", "title": "Backup and restore validation", "description": "Test and document restoration in cadence with evidence.", "frameworks": ["HIPAA", "CISA-CPG"], "criticality": "critical", "stale_days": 120, "required_evidence_types": ["backup_restore_test", "downtime_drill"]}
+  ]
+}

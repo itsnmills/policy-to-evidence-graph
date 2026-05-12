@@ -1,0 +1,9 @@
+{
+  "name": "HIPAA Security Rule Practical",
+  "version": 1.0,
+  "framework": "practical",
+  "controls": [
+    {"id": "HIPAA-164.308(a)(1)(i)", "title": "Security Management Process", "description": "Implement risk management and risk evaluation.", "frameworks": ["HIPAA"], "criticality": "high", "stale_days": 365, "required_evidence_types": ["risk_assessment", "review_log"]},
+    {"id": "HIPAA-164.312(a)", "title": "Access Control", "description": "Implement unique user IDs and emergency access procedures.", "frameworks": ["HIPAA"], "criticality": "high", "stale_days": 180, "required_evidence_types": ["access_review", "configuration_export"]}
+  ]
+}

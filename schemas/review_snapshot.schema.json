@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["snapshot_id", "captured_at", "reviewer", "notes"],
+  "properties": {
+    "snapshot_id": {"type": "string"},
+    "captured_at": {"type": "string", "format": "date-time"},
+    "reviewer": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

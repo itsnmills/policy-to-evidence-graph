@@ -1,0 +1,9 @@
+{
+  "name": "HPH CPG Essential",
+  "version": 1.0,
+  "framework": "practical",
+  "controls": [
+    {"id": "CPG-CP-01", "title": "Endpoint hygiene and MFA", "description": "Keep endpoint controls current for staff systems.", "frameworks": ["HPH-CPG"], "criticality": "high", "stale_days": 90, "required_evidence_types": ["configuration_export", "control_testing"]},
+    {"id": "CPG-CP-02", "title": "Patient safety and digital operations", "description": "Ensure operational continuity and incident communication.", "frameworks": ["HPH-CPG"], "criticality": "medium", "stale_days": 120, "required_evidence_types": ["incident_log", "backup_restore_test"]}
+  ]
+}

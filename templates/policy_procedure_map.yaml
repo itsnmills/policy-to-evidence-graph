@@ -1,0 +1,22 @@
+{
+  "procedures": [
+    {
+      "procedure_id": "PROC-001",
+      "title": "Intake and evidence intake validation",
+      "policy_ids": ["POL-01"],
+      "control_ids": ["CPR-001"]
+    },
+    {
+      "procedure_id": "PROC-002",
+      "title": "Quarterly vendor review process",
+      "policy_ids": ["POL-02"],
+      "control_ids": ["CPR-002"]
+    },
+    {
+      "procedure_id": "PROC-003",
+      "title": "Monthly backup test",
+      "policy_ids": ["POL-03"],
+      "control_ids": ["CPR-003"]
+    }
+  ]
+}

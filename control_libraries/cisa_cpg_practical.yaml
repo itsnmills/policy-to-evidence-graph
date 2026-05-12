@@ -1,0 +1,9 @@
+{
+  "name": "CISA CPG Practical",
+  "version": 1.0,
+  "framework": "practical",
+  "controls": [
+    {"id": "CISA-CI-001", "title": "Multi-layered email defenses", "description": "Deploy and verify email filtering and phishing controls.", "frameworks": ["CISA-CPG"], "criticality": "high", "stale_days": 180, "required_evidence_types": ["security_setting_review", "training_record"]},
+    {"id": "CISA-CI-002", "title": "MFA and account hygiene", "description": "Enforce MFA and review account life cycles.", "frameworks": ["CISA-CPG"], "criticality": "high", "stale_days": 90, "required_evidence_types": ["access_review", "configuration_export"]}
+  ]
+}

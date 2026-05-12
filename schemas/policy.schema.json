@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Policy",
+  "type": "object",
+  "required": ["policy_id", "title", "owner", "status", "updated_at"],
+  "properties": {
+    "policy_id": {"type": "string"},
+    "title": {"type": "string"},
+    "owner": {"type": "string"},
+    "status": {"enum": ["active", "draft", "retired"]},
+    "updated_at": {"type": "string", "format": "date"},
+    "description": {"type": "string"},
+    "control_ids": {"type": "array", "items": {"type": "string"}}
+  }
+}
