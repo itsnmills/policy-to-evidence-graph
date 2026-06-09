@@ -93,12 +93,6 @@ def _validate_passphrase(passphrase: str) -> None:
         raise EncryptionError("Passphrase must be at least 24 characters.")
 
 
-def resolve_passphrase(env_var: str) -> Optional[str]:
-    if not env_var:
-        return None
-    return os.getenv(env_var)
-
-
 def encrypt_payload(payload: bytes | str, passphrase: str) -> bytes:
     ensure_crypto_available()
     _validate_passphrase(passphrase)
