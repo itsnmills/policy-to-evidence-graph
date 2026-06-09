@@ -2,9 +2,11 @@
 
 A local-first evidence graph for small healthcare practices, MSPs, and consultants.
 
-This is a Velari companion module for the public
-[Small Practice Security Kit](https://github.com/itsnmills/small-practice-security-kit):
-use it when a readiness packet needs control-to-evidence traceability,
+## Part of the Velari Healthcare Security Suite
+
+This repo is the policy-to-evidence traceability companion for the public
+[Small Practice Security Kit](https://github.com/itsnmills/small-practice-security-kit).
+Use it when a readiness packet needs control-to-evidence traceability,
 staleness tracking, and review-ready graph exports.
 
 ## Work with Velari
