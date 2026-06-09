@@ -7,6 +7,10 @@ This is a Velari companion module for the public
 use it when a readiness packet needs control-to-evidence traceability,
 staleness tracking, and review-ready graph exports.
 
+## Work with Velari
+
+Use this module when a practice, MSP, or consultant needs to show which controls are backed by current evidence and which items still need owner/MSP/vendor follow-up. For a no-PHI readiness discussion, start from [Noah Mills on GitHub](https://github.com/itsnmills) or open a public-safe GitHub issue. Do not include PHI, credentials, private URLs, contracts, logs, patient details, or incident details.
+
 You can load control libraries, policy/evidence registers, system inventories, vendor records, and risk snapshots.
 The tool builds a control-to-evidence graph, flags stale or missing evidence, tracks readiness trends, and exports a practical review packet.
 
